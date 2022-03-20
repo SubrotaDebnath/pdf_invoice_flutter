@@ -5,7 +5,6 @@ import 'package:pdf_invoice_flutter/model/customer.dart';
 import 'package:pdf_invoice_flutter/model/invoice.dart';
 import 'package:pdf_invoice_flutter/model/supplier.dart';
 import 'package:pdf_invoice_flutter/widget/button_widget.dart';
-import 'package:pdf_invoice_flutter/widget/title_widget.dart';
 
 
 class PdfPage extends StatefulWidget {
@@ -106,6 +105,9 @@ class _PdfPageState extends State<PdfPage> {
                     //   vat: 0.19,
                     //   unitPrice: 1.29,
                     // ),
+
+
+
                   ],
                 );
 
